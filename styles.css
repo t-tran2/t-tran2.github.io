@@ -1,0 +1,61 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+#right-side {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.nav-link-wrapper {
+  margin: 20px;
+}
+
+.nav-wrapper a {
+  color: black;
+  text-decoration: none;
+}
+
+#linkedin {
+  display: block;
+  width: 21px;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#tommy-bio-pic {
+  grid-area: picture;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#bio-header {
+  grid-area: header;
+  text-align: center;
+  align-self: end;
+}
+
+#bio-paragraph {
+  grid-area: paragraph;
+  margin: 20px 75px;
+  font-size: 25px;
+  align-self: start;
+}
+
+#bio {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-areas:
+  "picture header"
+  "picture paragraph"
+  "picture paragraph";
+  justify-items: center;
+  align-items: center;
+}
