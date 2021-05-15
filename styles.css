@@ -79,10 +79,8 @@ body{
   align-items: center;
 }
 
-
-
 #work-heading {
-  margin: 45px 5px 60px 5px;
+  margin: 45px auto 60px auto;
 }
 
 #work-exp-cards {
@@ -137,6 +135,10 @@ body{
   justify-content: center;
 }
 
+#skills-heading {
+  margin: 10px 0px 60px 0px;
+}
+
 .skills-container {
   display: flex;
   justify-content: center;
@@ -150,4 +152,11 @@ body{
 
 .skills-card > * {
   margin: 10px 0px;
+}
+
+.section-heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
