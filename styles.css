@@ -1,8 +1,15 @@
+body{
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+}
+
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
+  background-color: rgb(56, 163, 230);
+  box-shadow: 0px 1px 4px rgb(46, 46, 46);
 }
 
 #right-side {
@@ -17,8 +24,17 @@
 }
 
 .nav-wrapper a {
-  color: black;
   text-decoration: none;
+  color: white;
+  padding-bottom: 3px;
+  margin: auto;
+}
+
+.nav-wrapper a:hover {
+  color: rgb(177, 177, 177);
+  transition: 1s;
+  border-bottom: solid;
+  border-width: 2px;
 }
 
 #linkedin {
@@ -27,6 +43,7 @@
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
+  background: linear-gradient(90deg, white 80%, rgb(56, 163, 230) 20%);
 }
 
 #tommy-bio-pic {
