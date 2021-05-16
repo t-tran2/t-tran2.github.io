@@ -171,3 +171,33 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+#blogs-sect {
+  margin-bottom: 50px;
+}
+
+#blogs-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#blogs-container a {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+}
+
+.blog-article {
+  width: 600px;
+}
+
+.blog-title {
+  margin: 10px 0px;
+}
+
+.blog-imgs {
+  max-width: 100%;
+  max-height: 335px;
+}
