@@ -3,6 +3,10 @@ body{
   font-family: 'Merriweather', serif;
 }
 
+li {
+  margin: 10px 10px;
+}
+
 #nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -133,17 +137,32 @@ body{
   font-size: 20px;
 }
 
+#project-sect {
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+}
+
 .project-heading{
   margin:10px 5px 60px 5px;
 }
 
 .project-container {
   display: grid;
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px;
+  grid-template-columns: 900px 900px;
+  grid-template-rows: 75% 75%;
   justify-items: center;
   align-items: center;
   justify-content: center;
+}
+
+.project-gifs {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#skills-sect {
+  background-color: rgb(56, 163, 230);
 }
 
 #skills-heading {
@@ -245,3 +264,4 @@ footer a{
 #linkedin-footer {
   background: linear-gradient(90deg, white 80%, rgb(56, 163, 230) 20%)
 }
+
